@@ -27,7 +27,7 @@ class _MultiplicationState extends State<Multiplication> {
                 labelText: "Num2"
               )),
               SizedBox(height: 20,),
-              RaisedButton(color: Colors.red,onPressed: (){
+              RaisedButton(color: Colors.blue,onPressed: (){
                 var getNum1=int.parse(num1.text);
                 var getNum2=int.parse(num2.text);
                 setState(() {
